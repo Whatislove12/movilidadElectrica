@@ -1,0 +1,197 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+body {
+    background-color: #fff;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* header *********************************************************** */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    }
+
+header>section>ul {
+    gap: 8rem;
+}
+header>section>ul>li>p.titulo2 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+
+/* main *********************************************************** */
+
+
+/* main .blockTransp {
+    height: 34vh;
+} */
+
+main  {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+main .panorama {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+        main article img {
+            padding: 0;
+            margin: 0;
+            width: 900px;
+            box-shadow: 0 0 10px rgb(97, 97, 97);
+        }
+        main .blockAllado .primero p {
+            margin: 0;
+            padding: 0;
+            width: 30%;
+            margin-right: 5%;
+            color: black;
+        }
+
+
+main .blockCuadrado {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90vw;
+    gap: 10rem;
+    padding: 0;
+    margin: 0 0 150px 0;
+}
+
+main .blockCuadrado article{
+    width: 40%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+
+    }
+    main .blockCuadrado article:first-child,
+    main .blockCuadrado article:nth-child(2) {
+        border-bottom: 4px solid rgb(129, 129, 129);
+        padding-bottom: 7rem;
+    }
+
+
+
+main .blockCuadrado article p {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+    main .blockCuadrado article:nth-child(1)::after {
+        content: "";
+        background-color: rgb(129, 129, 129);
+        position: absolute;
+        top: 2rem;
+        left:44.5vw;
+        border-right: 3px solid rgb(129, 129, 129);
+        height: 200%;
+    }
+
+
+
+    main .blockAllado {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+    }
+            main .blockAllado .fotoZero {
+                width: 100%;    
+             }
+            main .blockAllado .zeroArt {
+                 position: relative;
+                 width: 100%;
+             }
+             main .blockAllado .zeroArt p {
+                position: absolute;
+                bottom: 0;
+                top:  0;
+                left: 7%;
+                margin: auto 0;
+                color: #fff;
+                width: 40%;
+                height: 40%;
+                font-size: 3rem;
+             }  
+
+main .elegirBici, .primero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    gap: 2rem;
+}
+.menuEligo .primerPar {
+    margin-top: 0;
+}
+
+#upToHereBici .tituloGeneral {
+    font-size: 3rem;
+    margin-top: 100px;
+}
+
+.primero ,.zeroArt, .elegirBici {
+    margin-bottom: 100px;
+}
+
+
+             
+/* buttons ******************************************* */
+      
+             
+.color input {
+    width: 50px;
+    height: 30px;
+}
+    input#gris {background-color: rgb(131, 131, 131);}
+        input#gris:hover{background-color: rgb(150, 150, 150);width: 53px;height: 32px;}
+    input#amarillo {background-color: yellow;}
+        input#amarillo:hover{background-color: rgb(255, 255, 64);width: 53px;height: 32px;}
+
+.size #size {
+    width: 300px;
+    height: 50px;
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 5px;
+}
+    .size option {
+        font-size: 1.5rem;
+    }
+.menuEligo .color {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 7%;
+    margin: 0;
+    padding: 0;
+}
+
+.menuEligo .color p {
+    padding: 0;
+    margin: 0;
+}
+.menuEligo p {color: black;}

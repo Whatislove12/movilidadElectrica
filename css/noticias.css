@@ -1,0 +1,87 @@
+/* header *********************************************************** */
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+header>section>ul {
+    gap: 8rem;
+}
+header>section>ul>li>p.titulo2 {
+    font-size: 1.5rem;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+
+
+
+
+
+
+/* main *********************************************************** */
+main {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 13vh;
+}
+
+.productos img {
+    width: 400px;
+    height: 230px;
+}
+
+.productos div {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3.5rem;
+    margin-bottom: 5rem;
+}
+
+.productos article {
+    width: 402px;
+    border: 1px solid gray;
+    height: 75vh;
+    color: black;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    position: relative;
+
+}
+
+.productos article .paragProducto {
+    margin: 0 1rem;
+    font-size: 1.5rem;
+
+}
+
+.productos article .tituloProducto {
+    font-variant: small-caps;
+    font-size: 2rem;
+    font-weight: 300;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    text-decoration-thickness: 2px;
+    margin-left: 1.5rem;
+/*     text-align: center; */
+}
+.productos article .leer-mas-noticia {
+    position:absolute;
+    bottom: 1rem;
+    right: 1rem;
+    text-decoration:overline;
+    color: black;
+    z-index: 10;
+}
+
+/* footer *********************************************************** */
+
+footer .parFooterGen {
+    font-size: 1.5rem;
+}
+footer .imgFooter {
+    gap: 3rem;
+/*     border: 1px solid red; */
+}
+

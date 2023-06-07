@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="/fonts/fontawesome-free-6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/general.css">
+    <link rel="stylesheet" href="/css/contactos.css">
+</head>
+<body>
+    <header>
+
+        <section class="nombrePaj">
+            <ul>
+        <!--                 <li><img class="logo" src="/images/header/logo.png" alt=""></li> -->
+                <li><p class="titulo"><strong> BICI</strong> ELECTRICO</p></li>
+                <li><p class="titulo2">Solo se vive una vez, pero si lo <br> haces bien, una vez es suficiente </p></li>
+            </ul>
+        </section>
+
+
+       <!--  <input class="menuHamburguer" type="checkbox" id="menuHamburguer"> -->
+        <input class="menuHamburguer" type="checkbox" id="menuHamburguer" placeholder="fa-solid fa-bars">
+        <label class="menuHamburguer" for="menuHamburguer"><i class="fa-solid fa-bars"></i><i class="fa-solid fa-xmark"></i></label>
+
+        <nav class="navegacion">
+
+            <ol class="enlace">
+                <li><a href="/htnl/v1.html" target="_blank"><b>PATINETE <strong>ELECTRICO</strong></b></a></li>
+                <li><a href="/htnl/v2.html" target="_blank"><b>BICI <strong>ELECTRICO</strong></b></a></li>
+                <li><a href="/htnl/v3.html" target="_blank"><b>ESCATE <strong>ELECTRICO</strong></b></a></li>
+        <!--                 <li><a href="#ventajas"><b>VEN<strong>TAJAS</strong></b></a> </li>
+                <li><a href="#top-mejores"><b>TOP <strong>MEJORES</strong></b></a> </li> -->
+            </ol>
+        </nav>
+        </header>
+
+
+        <main>
+            
+            <div class="contenido">
+            <h1>Contact Rider Support</h1>
+            <h2>If you need more info or have further questions, our Rider Support Team is happy to help you.
+            </h2>
+            <h4>If you need either of the following, try these other routes first:</h4>
+
+            <form action="/datosFormulario.php" accept-charset="utf8" enctype="multipart/form-data" method="post" validate id="altaForm">
+            <div class="campo">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" name="nombre" id="nombre" autocomplete="off" inputmode="full-width-latin" placeholder="Albert" required>
+            </div>
+            <div class="campo">
+                <label for="apellido">Apellido:</label><br>
+                <input type="text" name="apellido" id="apellido" autocomplete="off" inputmode="full-width-latin" placeholder="Einstein" required>
+            </div>
+            <div class="row contacto">
+                <div class="campo">
+                    <label for="telefono">Teléfono:</label><br>
+                    <input type="tel" name="telefono" id="telefono" pattern="^[0-9]{9}$" maxlength="9" placeholder="+34 633749063">
+                </div>
+                <div class="campo">
+                    <label for="email">Correo electrónico:</label><br>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </div>
+            </div>    
+            <div class="campo">
+                <label for="tipoProd">El tipo de producto</label>
+                <br>
+                <select name="tipoProd" id="tipoProd">
+                    <option value=""></option>
+                    <option value="sinTitulacion" disabled selected>Sin Titulación</option>
+                    <option value="patinete">patinete</option>
+                    <option value="bici">bici</option>
+                    <option value="escate">escate</option>
+                </select>
+            </div>
+
+            <div class="submit">
+            <label for="sinTitulacion"><input type="checkbox" name="titulacion" id="sinTitulacion" value="sinTitulacion"><strong> Sign Me Up! I want to receive emails from Santa Cruz Bicycles.</strong></label>
+            </div>
+
+            <p>You may unsubscribe from Santa Cruz Bicycles communications at any time. For more information, read our <a href="https://www.santacruzbicycles.com/en-US/privacy-policy">privacy policy</a>.</p>
+            <p>By clicking submit below, you consent to allow Santa Cruz Bicycles to store and process the personal information submitted above to provide you the requested service.</p>   
+            <div class="row-action">
+                <input type="submit" value="Enviar Datos">
+            </div>
+
+        </form>
+
+    </div>
+            <div class="ubicacion">
+                <article class="mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d47006.59725817048!2d1.5761902582031304!3d42.578383300000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a58adb817ec90d%3A0xa9c1962f7ddfd9e0!2sGrandvalira!5e0!3m2!1sru!2ses!4v1669758580248!5m2!1sru!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </article>
+                <article class="datosContact">
+                    <h2>United States | Santa Cruz <br> Bicycles Showroom</h2>
+                    <p>2841 Mission Street</p>
+                    <p>Santa Cruz, California 95060</p>
+                    <p>USA</p>
+                    <p>(US) Telephone: 831.459.7560</p>
+                    <p>Factory Demo: 831.576.2848</p>
+                </article>
+
+            </div>
+
+               
+        </main>
+
+    <footer>
+        <div class="imgFooter">
+            <a href="#"><script src="https://cdn.lordicon.com/qjzruarw.js"></script>
+                <lord-icon
+                    src="https://cdn.lordicon.com/pxvzdlyo.json"
+                    trigger="hover"
+                    colors="outline:#121331,primary:#ffffff,secondary:#f24c00,tertiary:#4bb3fd,quaternary:#16c72e,quinary:#ebe6ef"
+                    style="width:150px;height:150px">
+                </lord-icon></a>
+                <p class="parFooterGen">Solo se vive una vez, pero si lo<br>  haces bien, una vez es suficiente </p>
+        </div>
+        <section class="elemfooter">
+        <article class="enlacesFooter">
+            <a href="/noticias.html" target="_blank">Noticias de vehículos electricos </a>
+            <a href="/contactos.html" target="_blank">Contactar con nosotros</a>
+            <div class="iconRedes">
+            <a href=""><img src="/images/footer/facebookfooter.png" alt="Icono de facebook"></a>
+            <a href=""><img src="/images/footer/twitterfooter.png" alt="Icono de twitter"></a>
+            <a href=""><img src="/images/footer/instagramfooter.png" alt="Icono de instagram"></a>
+        </div>
+        </article>
+        <article class="finalFooter">
+            <a href="">P. Cookies</a>
+            <a href="">P. Privacidad</a>
+            <a href=""> Avisos Legales</a>
+            <p class="parFooter">© VEV – Todos los derechos reservados 2022</p>
+        </article>
+        </section>
+        </footer>
+</body>
+</html>
