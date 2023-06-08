@@ -60,6 +60,17 @@ header>section>ul {
 
         }
 
+        /* RESPONSY DE HEADER ***********************************/
+        @media (max-width: 1200px) {
+            .logoSection .titulo {font-size: 15px;}
+            .logoSection .titulo2 {font-size: 12px;}
+            .enlace a{font-size: 12px !important;}
+        }
+        @media (max-width: 1080px) {
+
+        }
+
+
 header>nav.navegacion>ol.enlace>li>a>b>strong {
     color: #81CEC5;
   }

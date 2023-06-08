@@ -1,25 +1,3 @@
-/* header ************************************************** */
-header>section>ul>li>p.titulo {font-size: 1.7rem;}
-header .titulo2 {font-size: 1.2rem;}
-header .nombrePaj {display: flex;}
-
-
-header .menuHamburguer {
-    cursor: pointer;
-    font-size: 1.75rem;
-    display: none;
-    color: #fff;
-    }
-
-    header input:checked.menuHamburguer+label>i.fa-bars {display: block;}
-    header input:checked.menuHamburguer+label>i.fa-xmark {display: none;}
-    
-
-/* header .navegacion .menuHamburguer:hover {
-    color: rgb(216, 216, 216);
-}
- */
-
 
 /* main ************************************************** */
 

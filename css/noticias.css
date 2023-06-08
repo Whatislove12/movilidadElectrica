@@ -2,27 +2,6 @@ body {
     padding-top: 50px;
 }
 
-/* header *********************************************************** */
-
-header {
-    display: flex;
-    justify-content: space-around;
-}
-
-header>section>ul {
-    gap: 8rem;
-}
-header>section>ul>li>p.titulo2 {
-    font-size: 1.5rem;
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
-}
-
-
-
-
-
-
 
 /* main *********************************************************** */
 main {

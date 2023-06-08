@@ -48,4 +48,6 @@ window.onload = function() {
       FifthPartPage.addEventListener('click', e=> smoothScroll('top-mejores'));
 };
 
+console.log('frf', window.devicePixelRatio);
+
 
