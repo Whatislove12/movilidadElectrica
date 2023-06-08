@@ -28,6 +28,7 @@ body {
     background-color: #fff;
     width: 100%;
     margin: 0;
+    padding-top: 50px;
 }
  main p{
     font-size: 1rem;
@@ -37,7 +38,7 @@ main {
     max-width: 1400px;
     margin: 150px auto;
     width: 100%;
-    margin-bottom: 0;
+    margin-bottom: 150px;
 
 }
 
@@ -88,22 +89,8 @@ main .contenido .row-action input:active {font-size: 1.1rem; padding: 15px 101px
 
 main .ubicacion {margin-top: 3rem;}
 
-
-
-
-
-/* footer ************************************************** */
-
-footer {
-    width: 100vw;
-    margin: 0;
-}
-footer .parFooterGen {font-size: 1.3rem; padding: 20px;}
-footer .parFooter {font-size: 0.7rem; color: #fff;  padding-left: 15px;}
-
-footer article.enlacesFooter a {font-size: 1.3rem; padding: 5px;}
-footer .finalFooter a {white-space: nowrap; font-size: 0.7rem;}
-
+.datosContact p, .textoPagCont {
+    color: #000;} 
 
 
 
